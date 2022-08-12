@@ -13,23 +13,25 @@ dependencies:
   micro_core:
   micro_login:
   micro_home:
+  base_ui:
 
 dependency_overrides:
+
   micro_core:
     git:
       url: https://github.com/gusttavovianna/micro_core.git
       ref: v1.0.0
-  
+
   base_ui:
     git:
       url: https://github.com/gusttavovianna/base_ui.git
       ref: v1.0.0
-
+      
   micro_login:
     git:
       url: https://github.com/gusttavovianna/micro_login.git
       ref: v1.0.0
-
+      
   micro_home:
     git:
       url: https://github.com/gusttavovianna/micro_home.git
