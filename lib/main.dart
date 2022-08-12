@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:micro_core/micro_core.dart';
+import 'package:micro_home/micro_home.dart';
+import 'package:micro_login/micro_login.dart';
 
 void main() {
   runApp(MyApp());
