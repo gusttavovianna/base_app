@@ -5,9 +5,7 @@ node {
   stage('SonarQube Analysis') {
     withSonarQubeEnv('SonarQube') {
     def scannerHome = tool 'SonarScanner';
-    withSonarQubeEnv() {
-      sh "${scannerHome}/bin/sonar-scanner"
-    }
+    sh "${scannerHome}/bin/sonar-scanner"
   }
 }
 // def appname = "Runner" //DON'T CHANGE THIS. This refers to the flutter 'Runner' target.
